@@ -1,0 +1,103 @@
+/* #### Misc #### */
+
+/* Set the margin between HTML and Body to 0 */
+body {
+  margin: 0;
+  font-family: 'Sora';
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-attachment: fixed;
+}
+
+/* #### DARK MODE #### */
+
+.dark {
+  background-image: url("./src/bgs/bg-dark.svg");
+}
+
+.dark,
+.dark * {
+  color: #FFFFFF;
+}
+
+/* #### LIGHT MODE #### */
+
+.light {
+  background-image: url("./src/bgs/bg-light.svg");
+}
+
+.light,
+.light * {
+  color: #121212;
+}
+
+/* #### SPACING #### */
+
+#content {
+  padding: 20px 35px;
+}
+
+/* #### STYLE #### */
+
+/* Header */
+
+#header {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: Courier;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+#header a,
+.header i {
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+} 
+
+#header a:hover,
+#header i:hover {
+  color: #7ab4cc;
+} 
+
+
+#header * {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
+/* Content */
+
+#content h1 {
+  font-size: 2rem;
+}
+
+#content h2 {
+  font-size: 1.5rem;
+}
+
+#content p {
+  font-size: 1.3rem;
+}
+
+
+
+@media (max-width: 1000px) {
+
+  #header {
+    font-size: 1.5rem;
+  }
+
+
+
+}
